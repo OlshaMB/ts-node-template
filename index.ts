@@ -1,2 +1,2 @@
 import 'dotenv/config'
-console.log(`Hello, ${process.env.NAME}!`)
+console.log(`Hello, ${process.env.NAME ?? "World"}!`)
